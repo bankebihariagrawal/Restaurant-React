@@ -64,7 +64,6 @@ class Main extends Component {
 
 
 const mapStateToProps = (state) => {
- 
   return{
     dishes:state.dishes,
     comments:state.comments,
