@@ -17,6 +17,8 @@
     "react-scripts": "^3.4.1",
     "reactstrap": "^5.0.0",
     "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
     "yargs-parser": "^13.1.2"
   },
   "scripts": {
