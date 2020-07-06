@@ -22,14 +22,13 @@ class Main extends Component {
 // }
 
 componentDidMount() {
+  this.props.fetchPromos(); 
   this.props.fetchDishes();
   this.props.fetchComments();
-  this.props.fetchPromos();
 }
 
   render() {
     const HomePage = () => {
-      console.log(this.props)
       return(
           <Home 
               dish={this.props.dishes.dishes.filter((dish) => dish.featured)[0]}
@@ -54,7 +53,6 @@ componentDidMount() {
           
       );
     };
-    console.log(this.props)
     return (
       <div>
        <Header />
