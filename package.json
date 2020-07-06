@@ -16,6 +16,7 @@
     "react-redux-form": "^1.16.14",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.1",
+    "react-transition-group": "^4.4.1",
     "reactstrap": "^5.0.0",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
