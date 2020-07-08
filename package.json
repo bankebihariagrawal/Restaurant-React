@@ -23,6 +23,7 @@
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
+    "uuid": "^8.2.0",
     "yargs-parser": "^13.1.2"
   },
   "scripts": {

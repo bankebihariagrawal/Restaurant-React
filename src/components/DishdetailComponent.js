@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Modal , ModalBody , ModalHeader, Label,Row , Col,
-    Card, CardImg, CardBody,Button, CardText, CardTitle , Breadcrumb , BreadcrumbItem} from 'reactstrap';
+Card, CardImg, CardBody,Button, CardText, CardTitle , Breadcrumb , BreadcrumbItem} from 'reactstrap';
 import { Control, LocalForm, Errors } from 'react-redux-form';
 import {Link} from 'react-router-dom';
 import { Loading } from './LoadingComponent';
@@ -25,7 +25,7 @@ class  CommentForm  extends Component {
     }
     handleSubmit = (values) => {
         this.props.postComment(this.props.dishId , values.rating , values.author , values.comment)
-    this.setState({     
+        this.setState({     
         isModalOpen : !this.state.isModalOpen
     })
     }
@@ -124,7 +124,6 @@ function RenderComments(comments , postComment , dishId) {
                 <h4> Comments </h4>
                 <ul className='list-unstyled'>
                 <Stagger in>
-
                     {comment1}
                     <CommentForm  dishId={dishId} postComment={postComment}/>
                     </Stagger>
