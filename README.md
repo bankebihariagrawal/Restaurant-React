@@ -18,3 +18,15 @@
    This should start up a server at port number 3001 on your machine. 
 
 Now Open above files in Your editor and in cmd run npm install for installing of node_modules after installing node_modules folder run npm start and your application run succesfully
+
+# Ignore Build folder
+
+# Building your own Distribution Folder
+   To build the distribution folder containing your React application, type the following at the prompt:
+      npm run build
+   This should build a distribution folder named build containing all your application files
+# Deploying your React Application
+   1. To deploy your React application you need a server. Fortunately we already have the json-server available on our computer.
+   2. Copy the contents of the build folder to the public folder of your json-server (that you created previously)
+   3. Now your React application can be accessed at the link http://localhost:3001/.
+   4. If you are setting up a server on the cloud or anywhere, all that you need to do is copy the contents of the build folder to the server side to deploy your React application. The exact procedure depends on the cloud service provider that you choose to use. Please consult their documentation to see the procedure to set up the server.
