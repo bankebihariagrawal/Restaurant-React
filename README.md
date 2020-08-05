@@ -20,6 +20,7 @@
 Now Open above files in Your editor and in cmd run npm install for installing of node_modules after installing node_modules folder run npm start and your application run succesfully
 
 # Ignore Build folder
+Build Folder is one which you make your own therefore delete Build folder of my repository
 
 # Building your own Distribution Folder
    To build the distribution folder containing your React application, type the following at the prompt:
